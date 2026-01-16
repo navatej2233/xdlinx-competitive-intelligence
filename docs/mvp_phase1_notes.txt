@@ -1,0 +1,28 @@
+MVP Phase 1 Overview
+
+Scope:
+- Region: United States
+- Competitors: Planet Labs, Spire Global, BlackSky
+- Features:
+  • Competitor news via Google News RSS
+  • Stock price trend via Yahoo Finance
+  • Buy / Hold / Sell indicator based on analyst recommendations
+
+Data Refresh:
+- News and stock data are refreshed on app load
+- Free-tier public data sources used
+- No real-time guarantees
+
+Limitations:
+- Limited historical depth
+- Analyst recommendations may not be available for all competitors
+- Single-competitor stock view (by design for MVP)
+
+Next Steps:
+- Expand competitor coverage
+- Improve insight summaries
+- Add region-based comparisons
+
+Competitor Handling:
+- Public companies include news, stock trends, and analyst sentiment
+- Private companies are limited to news coverage due to data availability
